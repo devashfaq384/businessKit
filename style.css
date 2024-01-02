@@ -1,0 +1,342 @@
+
+:root{
+    --red:rgb(247,87,87);
+    --dark-red:rgb(253, 45, 45);
+}
+.red{
+    color: var(--red);
+}
+.bg-red{
+    background-color: var(--red);
+}
+
+/* header section  */
+.siz{
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    padding: 2% 0 2% 0;
+    color: white;
+    font-weight: 900;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-item{
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: var(--red);
+}
+@media only screen and (max-width:990px){
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.head{
+    background-image: url(./images/home-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.head-over{
+    background-color: rgba(73, 73, 73, 0.6);
+    height: 100%;
+}
+
+.header-heading{
+    padding: 0 0 15% 0;
+}
+.header-heading p{
+    padding-top: 15%;
+    width: 50%;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.buttn{
+    background-color: var(--red);
+    color: white;
+    border: 0;
+    outline: none;
+    transition: 0.4s all;
+    border-radius: 30px;
+    padding: 15px 30px 15px 30px;
+}
+.buttn:hover{
+    background-color: var(--dark-red);
+}
+@media only screen and (max-width:770px){
+    .head-over{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-heading p{
+        width: 100%;
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width:580px){
+    .header-heading p{
+        width: 100%;
+        font-size: 30px;
+    }
+}
+/* Service section  */
+.services{
+    padding: 8% 0 8% 0;
+}
+.serve{
+    color: var(--red);
+    font-size: 40px;
+    font-weight: 600;
+}
+.service-heading{
+    padding-bottom: 5%;
+    text-align: center;
+}
+.service-heading p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon{
+    font-size: 40px;
+}
+
+.box-service{
+    /* box-shadow: 0.1px 0.1px 10px rgb(182, 175, 175); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 2% 5% 2%;
+    border-radius: 15px;
+}
+.box-service p{
+    padding: 10px 0 10px 0;
+    font-size: 18px;
+}
+.icon-service{
+    font-size: 50px;
+    color: var(--red);
+}
+.head-service{
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--blue);
+}
+.space{
+    margin-top: 2%;
+}
+.p-top{
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+.p-bottom{
+    padding-bottom: 80px;
+}
+.service-heading{
+    color: var(--blue);
+    font-size: 33px;
+    font-weight: 900;
+    padding: 70px 0 10px 0;
+}
+@media only screen and (max-width:770px){
+
+    .box-service{
+        margin: 1% 0 1% 0;
+    }
+    .serve{
+        font-size: 35px;
+    }
+    .service-heading p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+/* Photo section  */
+
+.photo{
+    background: url(./images/absolute.jpg)
+    no-repeat fixed 100%;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: fixed; */
+    width: 100%; 
+     height: auto;
+}
+
+.photo-over{
+    background-color: rgba(73, 73, 73, 0.6);
+    height: 100%;
+}
+.photo-section{
+    padding: 8%;
+}
+.photo-text{
+    background-color: white;
+    width: 38%;
+    border-radius: 10px;
+    padding: 5%;
+    margin-left: 15%;
+}
+.photo-text p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5% 0 5% 0;
+}
+.heading-photo{
+    padding: 0 0 5% 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bg-white{
+    background-color: white;
+}
+.bold{
+    font-size: 30px;
+    font-weight: 900;
+}
+@media only screen and (max-width:770px){
+    .bold{
+        font-size: 22px;
+    }
+    .photo-text{
+        width: 50%;
+        text-align: center;
+    }
+    .photo-text p{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .no{
+        font-size: 15px;
+    }
+    .photo-section{
+        padding: 10%;
+    }
+    .photo-text{
+
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width:580px){
+    .bold{
+        font-size: 20px;
+    }
+    .photo-text{
+        width: 80%;
+    }
+    .photo-section{
+        padding: 25% 0 25% 0;
+    }
+}
+
+/* Blog section  */
+/* .blog{
+    margin-bottom: 22%;
+} */
+
+.blog-item{
+    margin: 5% 0 5% 0;
+}
+
+.blog-item img{
+    border-radius: 10px;
+}
+.blog-heading
+{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 8% 0 8% 0;
+}
+.buttn-blog{
+    background-color: transparent;
+    color: var(--red);
+    border: 0;
+    outline: none;
+    border: 1px solid var(--red);
+    transition: 0.4s all;
+    border-radius: 30px;
+    padding: 7px 18px 7px 18px;
+}
+.buttn-blog:hover{
+    color: white;
+    background-color: var(--dark-red);
+}
+@media only screen and (max-width:770px){
+    .blog-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .blog-heading{
+        font-size: 18px;
+    }
+    .blog-item{
+        padding: 0 5% 0 5%;
+    }
+    .buttn-blog{
+        font-size: 12px;
+        padding: 5px 12px 5px 12px;
+    }
+}
+/* footer section  */
+footer{
+    padding-top: 3%;
+    background-color: #f5f5f5;
+}
+.footer-heading{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--red);
+    text-align: center;
+    /* margin-top: 8%; */
+
+}
+@media only screen  and (max-width:770px){
+    .footer-heading{
+        padding-top: 8%;
+    }
+}
+.li{
+    padding-top: 20px;
+}
+.li li{
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1% 0 1% 0;
+}
+.mail{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.number{
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--red);
+}
+.copyright{
+    padding: 2% 0 3% 0;
+}
